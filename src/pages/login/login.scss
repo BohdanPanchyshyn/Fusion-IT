@@ -1,0 +1,60 @@
+.container {
+   width: 1440px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 24px 32px;
+}
+
+.container__block_login {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   background-color:#F5F5F7;
+   border-radius: 24px;
+}
+
+.container__block_login_title {
+   margin-left: 82px;
+   font-family: "Baloo Bhai 2";
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 102px;
+}
+
+.container__block_login_input {
+   width: 430px;
+   height: 60px;
+   border-radius: 15px;
+   margin-left: 66px;
+   margin-right: 54px;
+   border: none;
+   font-family: "Baloo Bhai 2";
+   font-weight: 600;
+   font-size: 15px;
+   padding-left: 16px;
+   line-height: 24px;
+}
+
+.container__block_login_input:last-child {
+   margin-top: 32px;
+   margin-bottom: 297px;
+}
+
+.container__block_image {
+   text-align: center;
+   flex: 2;
+}
+
+.container__block_image_avatar {
+   width: 175px;
+   height: 191px;  
+}
+
+.container__block_image_title {
+   margin-top: 0;
+   margin-left: 70px;
+   font-size: 64px;
+   font-family: "Baloo Bhai 2";
+   font-weight: 800;
+}
