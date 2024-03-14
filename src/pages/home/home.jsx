@@ -1,12 +1,14 @@
 import React from "react";
 import "./home.scss";
-import { NavLink } from "react-router-dom";
+import Header from "../../components/header/Header";
+import Mycourse from "../../components/my-course/Mycourse";
 
 const Home = () => {
    return (
-      <div>
+      <div className="wrapper_container_block_home_page">
+         <Header />
+         <Mycourse />
          <h1>Home page</h1>
-         {console.log("hello")}
       </div>
    )
 }

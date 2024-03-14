@@ -1,4 +1,4 @@
-.container {
+.wrapper_container_block_login {
    width: 1440px;
    display: flex;
    align-items: center;
@@ -12,6 +12,7 @@
    flex-direction: column;
    background-color:#F5F5F7;
    border-radius: 24px;
+   height: 95vh;
 }
 
 .container__block_login_title {
@@ -33,12 +34,13 @@
    font-weight: 600;
    font-size: 15px;
    padding-left: 16px;
-   line-height: 24px;
 }
 
-.container__block_login_input:last-child {
-   margin-top: 32px;
-   margin-bottom: 297px;
+.container__block_login_input {
+   &.email {
+      margin-top: 32px;
+      margin-bottom: 50px;
+   }  
 }
 
 .container__block_image {
@@ -57,4 +59,21 @@
    font-size: 64px;
    font-family: "Baloo Bhai 2";
    font-weight: 800;
+}
+
+.container__block_button {
+   margin-left: 66px;
+   width: 120px;
+   height: 40px;
+   border-radius: 8px;
+   border: none;
+   background-color: black;
+   color: white;
+   font-weight: 800;
+   cursor: pointer;
+
+   &:hover {
+      background-color: rgb(13, 65, 13);
+      transition: all 0.5s;
+   }
 }

@@ -1,0 +1,17 @@
+.wrapper_header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 620px;
+   border-radius: 14px;
+   background: #F5F5F7;
+   margin-top: 31px;
+      .wrapper_header_text-box {
+         font-family: "Baloo Bhai 2";
+         & h1 {
+            font-weight: 800;
+            font-size: 36px;
+            margin-bottom: -15px;
+         }
+      }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouteError } from "react-router-dom";
 import "./error.scss";
-import Footer from "../../components/footer/Footer";
+import Sidebar from "../../components/sidebar/Sidebar";
 
 let resultModName;
 
@@ -16,11 +16,14 @@ const nameNonPage = (string) => {
 const ErrorPage = () => {
    const error = useRouteError();
    nameNonPage(error.data);
+   console.log(error);
    return (
       <>
-         <h1>Opps!</h1>
-         <p>{resultModName} page is not developed yet</p>
-         <Footer />
+         <Sidebar />
+         <div className="wrapper_container_error_page">
+            <h1>Ooops!</h1>
+            <p>{resultModName} page is not found...</p>
+         </div>
       </>
    )
 }
