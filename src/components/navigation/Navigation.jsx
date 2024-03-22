@@ -12,9 +12,6 @@ const Navigation = () => {
          <div className="wrapper_container_navigation_notifications">
             <img src={notificationsIcon} alt="notifications-icon" />
          </div>
-         <div className="wrapper_container_navigation_profile_pictures">
-            <img src={profilePictures} alt="profile-pictures" />
-         </div>
       </div>
    )
 }
