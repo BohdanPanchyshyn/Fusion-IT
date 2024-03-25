@@ -9,7 +9,6 @@ import chatIcon from "../../media/icons/email_icon.png";
 import settingIcon from "../../media/icons/setting_icon.png";
 import logoutIcon from "../../media/icons/logout_icon.png";
 import ErrorPage from "../../pages/error/error";
-import Navigation from "../navigation/Navigation";
 
 const Sidebar = () => {
    return (
@@ -57,7 +56,6 @@ const Sidebar = () => {
             <Outlet>
             </Outlet>
          </main>
-         <Navigation />
       </div>
    )
 }
